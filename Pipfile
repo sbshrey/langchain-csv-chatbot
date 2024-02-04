@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+openai = "*"
+tiktoken = "*"
+streamlit = "*"
+langchain = "*"
+faiss-cpu = "*"
+streamlit-chat = "*"
+python-dotenv = "*"
+langchain-community = "*"
+langchain-openai = "*"
+exceptiongroup = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
